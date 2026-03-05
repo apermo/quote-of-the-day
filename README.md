@@ -38,9 +38,14 @@ composer test:unit       # Run unit tests
 
 ### Local WordPress Environment
 
+Requires [DDEV](https://ddev.readthedocs.io/) and the [`ddev-orchestrate`](https://github.com/apermo/ddev-orchestrate) addon:
+
 ```bash
+ddev add-on get apermo/ddev-orchestrate
 ddev start && ddev orchestrate
 ```
+
+This downloads WordPress into `.ddev/wordpress/`, installs dependencies, symlinks the plugin, and activates it. Login at `https://quote-of-the-day.ddev.site/wp-admin/` (admin/admin).
 
 ## License
 

@@ -1,4 +1,4 @@
 name: quote-of-the-day
 type: php
-docroot: ""
+docroot: .ddev/wordpress
 php_version: "8.4"
