@@ -13,3 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `[quote_of_the_day]` shortcode with 12 hardcoded quotes
 - Daily quote rotation using date-based deterministic selection
 - Unit tests for quote selection and shortcode output
+
+### Fixed
+
+- Workflow callers missing permissions (caused startup_failure)
