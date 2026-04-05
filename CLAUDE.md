@@ -42,7 +42,8 @@ ddev start && ddev orchestrate   # Full WordPress environment
 ```
 
 - Uses `apermo/ddev-orchestrate` addon
-- Bind-mounts repo into `wp-content/plugins/`
+- WordPress installs into `.ddev/wordpress/` subdirectory (keeps project root clean)
+- `ddev-orchestrate` symlinks the project into the WP plugins directory automatically
 
 ## Git Hooks
 
