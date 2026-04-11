@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Quote of the Day
  * Description: Displays a daily rotating quote via the [quote_of_the_day] shortcode.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Christoph Daum
  * Author URI:  https://apermo.de
  * License:     GPL-2.0-or-later
@@ -16,7 +16,7 @@ namespace Apermo\QuoteOfTheDay;
 
 defined( 'ABSPATH' ) || exit();
 
-define( 'QUOTE_OF_THE_DAY_VERSION', '0.1.0' );
+define( 'QUOTE_OF_THE_DAY_VERSION', '0.1.1' );
 define( 'QUOTE_OF_THE_DAY_FILE', __FILE__ );
 define( 'QUOTE_OF_THE_DAY_DIR', plugin_dir_path( __FILE__ ) );
 
